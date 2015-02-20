@@ -1,0 +1,31 @@
+{
+  "name": "math-tanh",
+  "version": "0.0.0",
+  "description": "Ponyfill for ES6 Math.tanh",
+  "keywords": [
+    "es6",
+    "hormony",
+    "polyfill",
+    "ponyfill",
+    "math",
+    "tanh",
+    "math.tanh",
+    "exp"
+  ],
+  "license": "MIT",
+  "author": "Arthur Verschaeve <contact@arthurverschaeve.be>",
+  "files": [
+    "index.js"
+  ],
+  "repository": "arthurvr/math-tanh",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "devDependencies": {
+    "math-sign": "^1.0.0",
+    "mocha": "*"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
