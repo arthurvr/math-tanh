@@ -1,7 +1,6 @@
 'use strict';
 
 var assert = require('assert');
-var mathSign = require('math-sign');
 var mathTanh = require('../');
 
 describe('function returns the hyperbolic tangent of the number passed', function () {

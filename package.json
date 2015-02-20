@@ -22,7 +22,6 @@
     "test": "mocha test/test.js"
   },
   "devDependencies": {
-    "math-sign": "^1.0.0",
     "mocha": "*"
   },
   "engines": {
