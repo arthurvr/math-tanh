@@ -1,5 +1,4 @@
 'use strict';
-
 module.exports = Math.tanh || function (num) {
 	if (num === Infinity) {
 		return 1;
