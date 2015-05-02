@@ -1,9 +1,21 @@
 'use strict';
-
 var assert = require('assert');
+var requireUncached = require('require-uncached');
 var mathTanh = require('../');
 
-describe('function returns the hyperbolic tangent of the number passed', function () {
+describe('tanh', function () {
+	beforeEach(function () {
+		Math.tanh = undefined;
+	});
+
+	it('Should use the native method when possible', function () {
+		Math.tanh = function () {
+			return 'foo';
+		};
+
+		assert.equal(requireUncached('../')(), 'foo');
+	});
+
 	it('Should handle NaN by returning NaN', function () {
 		assert.ok(isNaN(mathTanh(NaN)));
 	});

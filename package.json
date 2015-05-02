@@ -22,7 +22,8 @@
     "test": "mocha test/test.js"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "require-uncached": "^1.0.2"
   },
   "engines": {
     "node": ">=0.8.0"
