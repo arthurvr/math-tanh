@@ -1,19 +1,17 @@
 'use strict';
 var assert = require('assert');
 var requireUncached = require('require-uncached');
-var mathTanh = require('../');
+
+Math.tanh = undefined;
+var mathTanh = require('./');
 
 describe('tanh', function () {
-	beforeEach(function () {
-		Math.tanh = undefined;
-	});
-
 	it('Should use the native method when possible', function () {
 		Math.tanh = function () {
 			return 'foo';
 		};
 
-		assert.equal(requireUncached('../')(), 'foo');
+		assert.equal(requireUncached('./')(), 'foo');
 	});
 
 	it('Should handle NaN by returning NaN', function () {
