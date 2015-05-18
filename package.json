@@ -10,7 +10,8 @@
     "math",
     "tanh",
     "math.tanh",
-    "exp"
+    "exp",
+    "shim"
   ],
   "license": "MIT",
   "author": "Arthur Verschaeve <contact@arthurverschaeve.be>",
