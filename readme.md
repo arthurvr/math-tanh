@@ -21,4 +21,4 @@ mathTanh(1);
 
 ## License
 
-MIT © Arthur Verschaeve
+MIT © [Arthur Verschaeve](http://arthurverschaeve.be)
