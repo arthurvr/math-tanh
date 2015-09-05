@@ -38,8 +38,8 @@ describe('tanh', function () {
 	it('Should return the hyperbolic tangent', function () {
 		assert(floatEqual(mathTanh(1), 0.7615941559557649));
 		assert(floatEqual(mathTanh(-1), -0.7615941559557649));
-		assert(floatEqual(mathTanh(.2), 0.19737532022490412));
-		assert(floatEqual(mathTanh(-.2), -0.19737532022490412));
+		assert(floatEqual(mathTanh(0.2), 0.19737532022490412));
+		assert(floatEqual(mathTanh(-0.2), -0.19737532022490412));
 		assert.equal(mathTanh(30), 1);
 		assert.equal(mathTanh(-50), -1);
 	});
