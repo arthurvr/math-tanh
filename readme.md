@@ -15,7 +15,7 @@ $ npm install --save math-tanh
 ## Usage
 
 ```javascript
-var mathTanh = require('math-tanh');
+const mathTanh = require('math-tanh');
 
 mathTanh(1);
 //=> 0.7615941559557649
