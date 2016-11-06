@@ -1,8 +1,6 @@
 # math-tanh [![Build Status](https://travis-ci.org/arthurvr/math-tanh.svg?branch=master)](https://travis-ci.org/arthurvr/math-tanh)
 
-> A ponyfill for [ES6 Math.tanh](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/tanh)
-
-Ponyfill: A polyfill that doesn't overwrite the native method
+> A [ponyfill](https://ponyfill.com) for [ES6 Math.tanh](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/tanh)
 
 
 ## Installation
