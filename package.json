@@ -25,8 +25,7 @@
   "devDependencies": {
     "float-equal": "^1.0.0",
     "ava": "*",
-    "xo": "*",
-    "require-uncached": "^1.0.2"
+    "xo": "*"
   },
   "engines": {
     "node": ">=0.8.0"
